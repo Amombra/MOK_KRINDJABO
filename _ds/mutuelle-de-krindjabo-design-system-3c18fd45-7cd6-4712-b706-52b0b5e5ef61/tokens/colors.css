@@ -1,0 +1,22 @@
+:root{
+/* Base — Vert palmeraie (primaire) */
+--green-900:#0F2A20;--green-800:#17402F;--green-700:#1B4C38;--green-600:#215B45;--green-500:#2F7457;--green-400:#5A9C7F;--green-200:#B7D6C6;--green-100:#DCEBE3;--green-50:#EEF5F1;
+/* Base — Rouge latérite (accent chaud) */
+--clay-800:#6E2A1B;--clay-700:#8A3624;--clay-600:#A2402B;--clay-500:#BC5740;--clay-300:#E3A794;--clay-100:#F6E3DB;--clay-50:#FBF1ED;
+/* Base — Ocre or (mise en valeur) */
+--ochre-700:#8E641C;--ochre-600:#B07C24;--ochre-500:#C8912F;--ochre-300:#E6C57E;--ochre-100:#F8ECD2;--ochre-50:#FCF6E9;
+/* Base — Indigo Sanwi (froid, institutionnel) */
+--indigo-700:#152A45;--indigo-600:#1F3A5F;--indigo-400:#42618A;--indigo-100:#DDE4EE;
+/* Base — Neutres chauds (papier, sable, encre) */
+--sand-0:#FFFDFA;--sand-50:#FDFBF7;--sand-100:#F7F2E9;--sand-200:#F0E9DC;--sand-300:#E3D9C7;--sand-400:#C9BCA4;--sand-500:#9C8F79;--ink-600:#6B6156;--ink-700:#4A4239;--ink-800:#2E2822;--ink-900:#1C1814;
+/* Sémantique — texte */
+--text-strong:var(--ink-900);--text-body:var(--ink-800);--text-muted:var(--ink-600);--text-subtle:var(--sand-500);--text-on-dark:var(--sand-50);--text-on-primary:#FFFDFA;--text-brand:var(--green-600);--text-accent:var(--clay-600);--text-link:var(--green-600);--text-link-hover:var(--clay-600);
+/* Sémantique — surfaces */
+--surface-page:var(--sand-50);--surface-card:#FFFFFF;--surface-raised:var(--sand-0);--surface-sunken:var(--sand-100);--surface-brand:var(--green-600);--surface-brand-soft:var(--green-50);--surface-accent:var(--clay-600);--surface-accent-soft:var(--clay-50);--surface-highlight:var(--ochre-50);--surface-dark:var(--green-900);--surface-overlay:rgba(28,24,20,.55);
+/* Sémantique — bordures */
+--border-subtle:var(--sand-200);--border-default:var(--sand-300);--border-strong:var(--sand-400);--border-brand:var(--green-600);--border-accent:var(--clay-600);--border-focus:var(--ochre-500);
+/* Sémantique — états */
+--state-success:#2F7457;--state-success-soft:var(--green-50);--state-warning:var(--ochre-600);--state-warning-soft:var(--ochre-50);--state-danger:#A2402B;--state-danger-soft:var(--clay-50);--state-info:var(--indigo-600);--state-info-soft:var(--indigo-100);
+/* Interaction */
+--primary-hover:var(--green-700);--primary-active:var(--green-800);--accent-hover:var(--clay-700);--accent-active:var(--clay-800);--ghost-hover:var(--sand-100);--ghost-active:var(--sand-200)
+}
